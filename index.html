@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link  rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
+  <link  rel="stylesheet"  href="css/styles.css"/>
+  <title>Desafio Final</title>
+</head>
+<body>
+  <h1>Pesquisa de Usuários</h1>
+  <input type="text" name="txtBusca" id="txtBusca">
+  <button type="button" id="btnBuscar">Pesquisar</button>
+  <div class="country-container">
+    <div class="country-list">
+      <h5>Usuários</label>
+        <h6><span id="qtdUsersFound"></span> Usuários	encontrados</h6>
+        <div id="tabCountries"></div>
+    </div>
+    <div class="country-list">
+     <h5>Stats</label>
+     <h6>Masculino: <b id="qtdMasculino"></b></h6>
+     <h6>Feminino: <b id="qtdFeminino"></b></h6>
+     <h6>Soma Idades: <b id="somaIdades"></b></h6>
+     <h6>Média Idades: <b id="mediaIdades"></b></h6>
+    </div>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>
